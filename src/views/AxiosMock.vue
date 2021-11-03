@@ -8,7 +8,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            value: null
+            value: null,
         };
     },
 
@@ -16,7 +16,7 @@ export default {
         async fetchResults() {
             const response = await axios.get('mock/service');
             this.value = response.data;
-        }
-    }
+        },
+    },
 };
 </script>
