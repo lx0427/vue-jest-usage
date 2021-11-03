@@ -7,4 +7,5 @@ module.exports = {
     },
     testMatch: ['**/tests/**/?(*.)+(test).[jt]s?(x)', '**/tests/**/*spec.[jt]s?(x)', '**/__tests__/**/*.spec.js'],
     transformIgnorePatterns: ['<rootDir>/node_modules/(?!lodash-es)'],
+    setupFiles: ['<rootDir>/jest.init.js'],
 };
