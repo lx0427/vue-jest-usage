@@ -26,9 +26,7 @@ describe('FormSubmitter', () => {
 
         wrapper.find('[data-username]').setValue('alice');
         wrapper.find('form').trigger('submit.prevent'); // 异步请求
-
-        // ! 确保请求完成
-        await flushTask();
+        await flushTask(); // ! 确保请求完成
         // 1,2,3
         // w1,w3
         // h2,h3
