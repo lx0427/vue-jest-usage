@@ -32,6 +32,7 @@
         "eslint-plugin-prettier": "^3.3.1",
         "eslint-plugin-vue": "^6.2.2",
         "flush-promises": "^1.0.2",
+        "jest-diff": "^27.3.1",
         "jest-serializer-vue": "^2.0.2",
         "less": "^3.0.4",
         "less-loader": "^5.0.0",
