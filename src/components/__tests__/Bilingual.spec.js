@@ -6,5 +6,7 @@ describe('Bilingual', () => {
         const wrapper = shallowMount(Bilingual);
 
         expect(wrapper.html()).toContain('Hello world');
+
+        expect(wrapper).toMatchSnapshot();
     });
 });
